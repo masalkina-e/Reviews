@@ -1,34 +1,41 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8"/>
+    <meta charset="utf-8" />
     <title>REVIEWS</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <link rel="stylesheet" type="text/css" href="reset.css"> 
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <link rel="stylesheet" type="text/css" href="reset.css" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
-    <div>
-      <div class="inner-container">
+    <div class="inner-container">
+      <div class="title">
+        <h1>Our reviews</h1>
+        <div class="underline"></div>
+      </div>
 
-        <div class="title">
-          <h1>Our reviews</h1>
-          <div class="underline"></div>
+      <div class="reviews-container">
+        <div class="reviews" id="reviews-container"></div>
+
+        <div class="container-btn">
+          <button class="btn-arrow" id="btn-prev">
+            <img src="picture/icon-back.png" alt="Arrow-back" />
+          </button>
+          <button class="btn-arrow" id="btn-next">
+            <img src="picture/icon-next.png" alt="Arrow-next" />
+          </button>
         </div>
-
-        <div class="reviews-container" >
-          <div class="slider">
-            <div class="slider-line" id="reviews-container"></div>
-          </div>
-        </div>
-
+        <button class="btn-random">Surprise me</button>
       </div>
     </div>
 
-    <script src="/src/script.js"></script>  
+    <script src="/src/script.js"></script>
   </body>
 </html>
