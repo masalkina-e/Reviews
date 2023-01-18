@@ -2,7 +2,7 @@
   "name": "my-project",
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build scr/index.html",
+    "build": "parcel build srс/index.html",
     "format": "prettier --write ."
   },
   "devDependencies": {
