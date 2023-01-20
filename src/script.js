@@ -70,4 +70,13 @@ function backReview() {
 const clickBackReview = document.getElementById("btn-prev");
 clickBackReview.addEventListener("click", backReview);
 
+function randomReviews() {
+  let randomIndex = Math.floor(Math.random() * reviews.length);
+  currentIndex = randomIndex;
+  renderReview();
+}
+
+const clickRandomReview = document.getElementById("btn-random")
+clickRandomReview.addEventListener('click', randomReviews)
+
 renderReview();
