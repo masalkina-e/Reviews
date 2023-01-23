@@ -8,10 +8,7 @@
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
   </head>
 
   <body>
@@ -25,14 +22,36 @@
         <div class="reviews" id="reviews-container"></div>
 
         <div class="container-btn">
-          <button class="btn-arrow" id="btn-prev">
-            <img src="picture/icon-back.png" alt="Arrow-back" />
-          </button>
-          <button class="btn-arrow" id="btn-next">
-            <img src="picture/icon-next.png" alt="Arrow-next" />
-          </button>
+          <button class="btn-arrow" id="btn-prev"><img src="/images/icon-back.png" alt="arrow-back"/></button>
+          <button class="btn-arrow" id="btn-next"><img src="/images/icon-next.png" alt="arrow-next"/></button>
         </div>
-        <button class="btn-random" id="btn-random">Surprise me</button>
+        <div class="container-btn">
+          <button class="btn-random-feedback" id="btn-random">Surprise me</button>
+          <button class="btn-random-feedback" id="btn-give-feedback">Give feedback</button>
+        </div>
+        
+        <div class="modal-window hidden" id="modal-window">
+          <div class="modal-window-form">
+            <div class="btn-close-flex">
+              <button class="btn-close-form" id="btn-close-form">X</button>
+            </div>
+
+            <p class="title-input-add">Photo</p>
+            <input class="input-add" id="avatar-add"></input>
+            <p class="title-input-add">Name</p>
+            <input class="input-add" id="name-add"></input>
+            <p class="title-input-add">Professian</p>
+            <input class="input-add" id="prof-add"></input>
+            <p class="title-input-add">Feedback</p>
+            <input class="input-add" id="text-add"></input>
+            <button class="btn-add-feedback" id="btn-add-feedback">Add</button>
+            <p class="error" id="error"></p>
+          </div>  
+      
+        </div>
+
+
+        </div>
       </div>
     </div>
 
