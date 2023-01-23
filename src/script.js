@@ -80,6 +80,7 @@ clickRandomReview.addEventListener('click', randomReviews)
 function openForm() {
   const modalWindow = document.getElementById("modal-window")
   modalWindow.classList.toggle('hidden')
+  modalWindow.classList.toggle('flex')
   cleanForm()
   myError.innerHTML = ""
 }
@@ -128,6 +129,7 @@ function saveReview() {
   
   reviews.push(review)
   currentIndex = reviews.length - 1
+  renderReview()
   openForm()
 }
 

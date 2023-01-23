@@ -22,6 +22,10 @@ html {
   display: none;
 }
 
+.flex {
+  display: flex;
+}
+
 .title {
   color: var(--main-title);
   margin: 200px auto 100px;
