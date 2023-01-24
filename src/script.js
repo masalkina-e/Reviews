@@ -79,7 +79,7 @@ clickRandomReview.addEventListener('click', randomReviews)
 
 function openForm() {
   const modalWindow = document.getElementById("modal-window")
-  modalWindow.classList.toggle('hidden')
+  // modalWindow.classList.toggle('hidden')
   modalWindow.classList.toggle('flex')
   cleanForm()
   myError.innerHTML = ""
